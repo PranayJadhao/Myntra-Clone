@@ -16,9 +16,11 @@ let form=document.querySelector("form");
             localStorage.setItem("login",JSON.stringify(ele));
             alert("Login Successfull")
             window.location.href="home.html"
+            return;
         }
         else{
             alert("User does not Exist")
+            return;
         }
        
       })
