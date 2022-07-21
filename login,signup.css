@@ -1,0 +1,36 @@
+
+        body{
+            background-color: #fdedf0;
+        }
+        span{
+            font-weight: bold;
+            color: #ff3f6c;
+        }
+        #contaier{
+            border: 0px solid red;
+            width: 25%;
+            margin: auto;
+            margin-top: 20px;
+     
+        }
+        img{
+            width: 100%;
+           
+        }
+        #login{
+            padding-left: 20px;
+            background-color: #ffffff;
+             height: 400px;
+             padding-top: 15px;
+         
+        }
+        input[type=submit]{
+            background-color: #ff3f6c;
+            border: none;
+            color: white;
+            width: 80%;
+            padding: 15px;
+          margin-left: 25px;
+            
+        }
+    
