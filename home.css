@@ -1,0 +1,34 @@
+#container {
+    width: 100%;
+    display: flex;
+    width: 90vw;
+    display: block;
+    margin: auto;
+    margin-left: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 100%;
+}
+.div{
+    width: 100%;
+    display: flex;
+    margin: auto;
+
+}
+.div>img{
+    margin-left: 10px;
+    width: 12%;
+}
+.middle{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(2,auto);
+   
+}
+.middle>img{
+    width: 100%;
+    gap: 20%;
+}
