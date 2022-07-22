@@ -1,0 +1,11 @@
+#container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    line-height: 0%;
+    margin: auto; 
+}
+#container img{
+    width: 250px;
+    margin-top: 20px;
+}
