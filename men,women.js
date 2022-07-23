@@ -230,6 +230,7 @@
   
       let container=document.getElementById("container");
       let filter=document.getElementById("filter");
+      let bagls=JSON.parse(localStorage.getItem("bag-page"))||[];
       function display(data){
           container.innerHTML=null;
           data.forEach(function(ele){
@@ -245,7 +246,10 @@
               let catagory=document.createElement("p");
               catagory.innerText=ele.catagory;
               let cart=document.createElement("button");
-              cart.textContent="Add to Cart"
+              cart.textContent="Add to Bag"
+              cart.addEventListener("click",function(){
+                addtobag(ele);
+              })
               product.append(img,name,brand,price,catagory,cart);
               container.append(product);
           })
@@ -263,4 +267,17 @@
           display(filtered);
          
       })
+
+      function addtobag(product){
+        for (let i=0;i<bagls.length;i++){
+          if(bagls[i].productID==product.productID){
+            alert("Product already in Bag");
+            return;
+          }
+        }
+        bagls.push(product);
+        alert("product Added Successfully");
+        localStorage.setItem("bag-page",JSON.stringify(bagls));
+        console.log(bagls)
+      }
   
