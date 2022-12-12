@@ -21,6 +21,9 @@
 - CSS,
 - JavaScript
 
+## Demo Video Link:-
+https://drive.google.com/file/d/14G6cM2X9IpuGlqlAMx3aFR15KZT-Nfp6/view
+
 ## Sneak Peak:-
 
 - Landing Page
@@ -39,7 +42,8 @@
 ![myntra bag](https://user-images.githubusercontent.com/107978823/207063967-e71d555b-0ba2-4f84-ac95-ff47042a0f55.png)
 
 
-
+## Connect with me on LinkedIn:-
+https://www.linkedin.com/in/pranay-jadhao-b322b7259/
 
 
 
